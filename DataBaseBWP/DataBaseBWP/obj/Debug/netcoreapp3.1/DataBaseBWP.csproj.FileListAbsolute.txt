@@ -1,0 +1,14 @@
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.exe
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.deps.json
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.runtimeconfig.json
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.runtimeconfig.dev.json
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.dll
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\bin\Debug\netcoreapp3.1\DataBaseBWP.pdb
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.csproj.AssemblyReference.cache
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.GeneratedMSBuildEditorConfig.editorconfig
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.AssemblyInfoInputs.cache
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.AssemblyInfo.cs
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.csproj.CoreCompileInputs.cache
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.dll
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.pdb
+C:\shoollwerk map\database BWP\database-League-of-Legends-characters\DataBaseBWP\DataBaseBWP\obj\Debug\netcoreapp3.1\DataBaseBWP.genruntimeconfig.cache

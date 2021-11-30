@@ -9,14 +9,15 @@ namespace DataBaseBWP
         {
             LoLCharacterDataBase loLCharacterDataBase = new LoLCharacterDataBase();
 
-            InfoLoLCHaracters infoloLCHaracters = new InfoLoLCHaracters("Kha'Zix");
-            InfoLoLCHaracters infoloLCHaracters1 = new InfoLoLCHaracters("Kindred");
+            InfoLoLCHaracters infoloLCHaracters = new assassin("Kha'Zix");
+            InfoLoLCHaracters infoloLCHaracters1 = new marksman("Kindred");
 
             loLCharacterDataBase.AddInfo(infoloLCHaracters);
             loLCharacterDataBase.AddInfo(infoloLCHaracters1);
 
             foreach(InfoLoLCHaracters c in loLCharacterDataBase.GetInfo())
             {
+                c.ULT();
                 Console.WriteLine(c.GetName());
             }
 

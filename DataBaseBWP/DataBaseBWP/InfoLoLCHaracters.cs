@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataBaseBWP
 {
-    class InfoLoLCHaracters
+    abstract class InfoLoLCHaracters
     {
         private string name;
         
@@ -18,5 +18,8 @@ namespace DataBaseBWP
         {
             return name;
         }
+
+        abstract public void ULT();
+        
     }
 }
