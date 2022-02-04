@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DataBaseBWP
 {
-    public abstract  class InfoLoLCHaracters
+    public abstract class InfoLoLCHaracters
     {
         public string name;
         public string characterType;
@@ -20,7 +20,7 @@ namespace DataBaseBWP
             return name;
         }
 
-        public string GetType()
+        public new string GetType()
         {
             return characterType;
         }

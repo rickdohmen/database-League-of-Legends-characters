@@ -7,11 +7,7 @@ namespace DataBaseBWP
     {
         static void Main(string[] args)
         {
-            LoLCharacterDataBase db = new LoLCharacterDataBase();
-
-            InfoLoLCHaracters Kindred = new InfoLoLCHaracters("Kaitlyn", "ADC");
-
-            db.AddInfo(Kindred);
+            
 
             LoLCharacterDataBase loLCharacterDataBase = new LoLCharacterDataBase();
 
