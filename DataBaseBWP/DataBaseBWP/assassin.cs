@@ -6,7 +6,7 @@ namespace DataBaseBWP
 {
     class assassin : InfoLoLCHaracters
     {
-        public assassin(string Name) : base(Name)
+        public assassin(string Name, string aType) : base(Name, aType)
         {
             
         }

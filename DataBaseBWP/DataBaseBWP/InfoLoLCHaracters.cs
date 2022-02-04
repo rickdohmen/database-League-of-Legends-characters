@@ -4,19 +4,25 @@ using System.Text;
 
 namespace DataBaseBWP
 {
-    abstract class InfoLoLCHaracters
+    public abstract  class InfoLoLCHaracters
     {
-        private string name;
-        
+        public string name;
+        public string characterType;
 
-        public InfoLoLCHaracters(string Name)
+        public InfoLoLCHaracters(string Name, string aType)
         {
             name = Name;
+            characterType = aType;
         }
 
         public string GetName()
         {
             return name;
+        }
+
+        public string GetType()
+        {
+            return characterType;
         }
 
         abstract public void ULT();

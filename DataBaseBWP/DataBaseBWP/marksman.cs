@@ -6,7 +6,7 @@ namespace DataBaseBWP
 {
     class marksman : InfoLoLCHaracters
     {
-        public marksman(string Name) : base(Name)
+        public marksman(string Name, string aType) : base(Name, aType)
         {
 
         }
