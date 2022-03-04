@@ -5,11 +5,17 @@ namespace DataBaseBWP
 {
     class Program
     {
+
         static void Main(string[] args)
         {
             
 
             LoLCharacterDataBase loLCharacterDataBase = new LoLCharacterDataBase();
+            InfoLoLCHaracters Kindred = new marksman("Kindred", "ADC");
+            InfoLoLCHaracters Khazix = new assassin("Kha'zix", "JGL");
+
+            loLCharacterDataBase.AddInfo(Kindred);
+            loLCharacterDataBase.AddInfo(Khazix);
 
             bool bShouldRun = true;
 

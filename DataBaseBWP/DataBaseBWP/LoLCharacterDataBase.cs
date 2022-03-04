@@ -8,17 +8,12 @@ namespace DataBaseBWP
     {
         public List<InfoLoLCHaracters> infoLoLCHaracters;
 
+
         public LoLCharacterDataBase()
         {
 
             infoLoLCHaracters = null;
-            LoLCharacterDataBase db = new LoLCharacterDataBase();
-
-            InfoLoLCHaracters Kindred = new marksman("Kindred", "ADC");
-            InfoLoLCHaracters Khazix = new assassin("Kha'zix", "JGL");
-
-            db.AddInfo(Kindred);
-            db.AddInfo(Khazix);
+            
 
 
 
