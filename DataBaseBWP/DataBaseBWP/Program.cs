@@ -11,6 +11,8 @@ namespace DataBaseBWP
             
 
             LoLCharacterDataBase loLCharacterDataBase = new LoLCharacterDataBase();
+            
+
             InfoLoLCHaracters Kindred = new marksman("Kindred", "ADC");
             InfoLoLCHaracters Khazix = new assassin("Kha'zix", "JGL");
 
@@ -27,32 +29,27 @@ namespace DataBaseBWP
                     case "marksman":
                         foreach(InfoLoLCHaracters c in loLCharacterDataBase.GetInfo())
                         {
-                            if(c.GetName() == "marksman")
+                            if(c.GetName() == "Kindred")
                             {
-                                Console.WriteLine(c.name + "is a marksman");
+                                Console.WriteLine(c.characterName + " is a marksman(ADC)");
                             }
                             
                         }
                         break;
-                        /*InfoLoLCHaracters infoloLCHaracters = new marksman("Kindred");
-                        loLCharacterDataBase.AddInfo(infoloLCHaracters);
-                        Console.WriteLine("Added A marksman");
-                        break;*/
+                        
 
                     case "assassin":
 
                         foreach (InfoLoLCHaracters c in loLCharacterDataBase.GetInfo())
                         {
-                            if (c.GetName() == "assassin")
+                            if (c.GetName() == "Kha'zix")
                             {
-                                Console.WriteLine(c.name + "is a assassin");
+                                Console.WriteLine(c.characterName + " is a assassin(JGL)");
                             }
 
                         }
                         break;
-                    /*InfoLoLCHaracters infoloLCHaracters1 = new assassin("Kha'Zix");
-                    loLCharacterDataBase.AddInfo(infoloLCHaracters1);
-                    Console.WriteLine("Added A assassin");*/
+                   
 
 
                     case "all":
@@ -70,38 +67,7 @@ namespace DataBaseBWP
                 }
             }
             
-            /*
-            InfoLoLCHaracters infoloLCHaracters = new assassin("Kha'Zix");
-            InfoLoLCHaracters infoloLCHaracters1 = new marksman("Kindred");
-
-            loLCharacterDataBase.AddInfo(infoloLCHaracters);
-
-
-            string filter = Console.ReadLine();
-            /*
-            switch (filter)
-            {
-                case "All":
-
-                    goto case "marksman";
-
-                case "marksman":
-                    loLCharacterDataBase.AddInfo(infoloLCHaracters1);
-
-                    if(filter == "All")
-                    {
-                        goto case "Assassin";
-                    }
-                    break;
-
-            }
-
-            foreach(InfoLoLCHaracters c in loLCharacterDataBase.GetInfo())
-            {
-                c.ULT();
-                Console.WriteLine(c.GetName());
-            }
-            */
+            
 
         }
     }

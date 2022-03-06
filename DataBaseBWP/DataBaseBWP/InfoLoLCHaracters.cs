@@ -6,18 +6,18 @@ namespace DataBaseBWP
 {
     public abstract class InfoLoLCHaracters
     {
-        public string name;
+        public string characterName;
         public string characterType;
 
         public InfoLoLCHaracters(string Name, string aType)
         {
-            name = Name;
+            characterName = Name;
             characterType = aType;
         }
 
         public string GetName()
         {
-            return name;
+            return characterName;
         }
 
         public new string GetType()

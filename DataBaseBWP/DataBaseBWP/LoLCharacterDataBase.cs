@@ -6,22 +6,17 @@ namespace DataBaseBWP
 {
     class LoLCharacterDataBase
     {
-        public List<InfoLoLCHaracters> infoLoLCHaracters;
-
-
+        private List<InfoLoLCHaracters> infoLoLCHaracters;
         public LoLCharacterDataBase()
         {
-
-            infoLoLCHaracters = null;
-            
-
-
-
+             infoLoLCHaracters = new List<InfoLoLCHaracters>();
         }
+        
+
 
         public void AddInfo(InfoLoLCHaracters infoloLCHaracters)
         {
-            infoLoLCHaracters.Add(infoloLCHaracters);
+            infoLoLCHaracters.Add(infoloLCHaracters); 
         }
 
         public List<InfoLoLCHaracters> GetInfo()
