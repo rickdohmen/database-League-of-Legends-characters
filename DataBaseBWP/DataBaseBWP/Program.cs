@@ -49,8 +49,18 @@ namespace DataBaseBWP
 
                         }
                         break;
-                   
 
+                    case "add character":
+                        Console.WriteLine("here you can add assassin/marksman characters to the database but keep in mind that the database is bugged");
+
+                        //hier wil ik de functie zetten dat zodra je een van de zes naamen in typed dat ze in de gooede case word toegevoegd
+                        string Name = Console.ReadLine();
+                        string aType = Console.ReadLine();
+                        InfoLoLCHaracters Character  = new marksman(Name, aType);
+                        InfoLoLCHaracters CharacterB = new assassin(Name, aType);
+                        loLCharacterDataBase.AddInfo(Character);
+                        loLCharacterDataBase.AddInfo(CharacterB);
+                        break;
 
                     case "all":
                         var allCharacters = loLCharacterDataBase.GetInfo();
